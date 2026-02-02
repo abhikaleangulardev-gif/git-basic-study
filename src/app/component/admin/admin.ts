@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './admin.css',
 })
 export class Admin {
-
+  admin:any[] = ['alok','mohan','geeta','meena'];
 }
