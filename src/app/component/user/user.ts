@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './user.css',
 })
 export class User {
-  user: string[] = ['abhishek', 'mohit', 'reena']
+  user: string[] = ['abhishek', 'mohit', 'reena'];
+
+  constructor() {
+    this.user.forEach((u: any) => console.log(u));
+  }
 }
