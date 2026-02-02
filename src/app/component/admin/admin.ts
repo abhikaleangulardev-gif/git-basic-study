@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Admin {
   admin: string[] = ['alok', 'mohan', 'geeta', 'meena'];
+
+  constructor() {
+    this.admin.map((ad: any) => console.log(ad));
+  }
 }
